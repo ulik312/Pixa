@@ -26,6 +26,7 @@ class ImageAdapter(private val list: List<ImageModel>) : RecyclerView.Adapter<Im
     inner class ImageHolder(private val binding: ItemImageBinding) : RecyclerView.ViewHolder(binding.root){
         fun bind(imageModel: ImageModel) {
             binding.imageView.load(imageModel.largeImageURL)
+
         }
 
     }
