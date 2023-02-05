@@ -1,7 +1,7 @@
 package com.example.pixa
 
 data class PixaModel(
-    val hits: List<ImageModel>
+    val hits: ArrayList<ImageModel>
 )
 
 data class ImageModel(
